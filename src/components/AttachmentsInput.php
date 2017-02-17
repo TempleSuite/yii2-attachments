@@ -3,8 +3,8 @@
 namespace jeffwalsh\attachments\components;
 
 use kartik\file\FileInput;
-use jeffwalsh\attachments\models\UploadForm;
-use jeffwalsh\attachments\ModuleTrait;
+use nemmo\attachments\models\UploadForm;
+use nemmo\attachments\ModuleTrait;
 use yii\base\InvalidConfigException;
 use yii\bootstrap\Widget;
 use yii\helpers\FileHelper;
@@ -107,4 +107,37 @@ JS;
 
         return Html::tag('div', $fileinput, ['class' => 'form-group']);
     }
+
+    public function documentWidget($config = [])
+    {
+        ob_start();
+        ob_implicit_flush(false);
+        try {
+            /* @var $widget Widget */
+            $config['class'] = get_called_class();
+            $widget = \Yii::createObject($config);
+            $out = $widget->documentRun();
+        } catch (\Exception $e) {
+            // close the output buffer opened above if it has not been closed already
+            if (ob_get_level() > 0) {
+                ob_end_clean();
+            }
+            throw $e;
+        }
+
+        return ob_get_clean() . $out;
+    }
+
+    public function documentRun()
+    {
+        $fileinput = FileInput::widget([
+            'model' => new UploadForm(),
+            'attribute' => 'file[]',
+            'options' => $this->options,
+            'pluginOptions' => $this->pluginOptions,
+        ]);
+
+        return Html::tag('div', $fileinput, ['class' => 'form-group']);
+    }
+
 }
