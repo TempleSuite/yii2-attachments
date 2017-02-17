@@ -1,13 +1,13 @@
 <?php
 
-namespace jeffwalsh\attachments\migrations;
+namespace templesuite\attachments\migrations;
 
 use yii\db\Migration;
 use yii\db\Schema;
 
 class m150127_040544_add_attachments extends Migration
 {
-    use \jeffwalsh\attachments\ModuleTrait;
+    use \templesuite\attachments\ModuleTrait;
 
     public function up()
     {

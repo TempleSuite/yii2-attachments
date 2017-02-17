@@ -6,10 +6,10 @@
  * Time: 12:24
  */
 
-namespace jeffwalsh\attachments\behaviors;
+namespace templesuite\attachments\behaviors;
 
-use jeffwalsh\attachments\models\File;
-use jeffwalsh\attachments\ModuleTrait;
+use templesuite\attachments\models\File;
+use templesuite\attachments\ModuleTrait;
 use yii\base\Behavior;
 use yii\db\ActiveRecord;
 use yii\helpers\FileHelper;

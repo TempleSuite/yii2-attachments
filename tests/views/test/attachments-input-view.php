@@ -10,6 +10,6 @@ use tests\models\Comment;
 
 /** @var $model Comment */
 
-echo \jeffwalsh\attachments\components\AttachmentsInput::widget([
+echo \templesuite\attachments\components\AttachmentsInput::widget([
     'model' => $model
 ]);

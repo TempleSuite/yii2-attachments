@@ -1,10 +1,10 @@
 <?php
 
-namespace jeffwalsh\attachments\controllers;
+namespace templesuite\attachments\controllers;
 
-use jeffwalsh\attachments\models\File;
-use jeffwalsh\attachments\models\UploadForm;
-use jeffwalsh\attachments\ModuleTrait;
+use templesuite\attachments\models\File;
+use templesuite\attachments\models\UploadForm;
+use templesuite\attachments\ModuleTrait;
 use Yii;
 use yii\helpers\FileHelper;
 use yii\web\Controller;

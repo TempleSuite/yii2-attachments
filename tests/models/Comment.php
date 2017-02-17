@@ -8,7 +8,7 @@
 
 namespace tests\models;
 
-use jeffwalsh\attachments\behaviors\FileBehavior;
+use templesuite\attachments\behaviors\FileBehavior;
 use yii\db\ActiveRecord;
 
 /**

@@ -8,7 +8,7 @@
 
 namespace tests;
 
-use jeffwalsh\attachments\Module;
+use templesuite\attachments\Module;
 use Yii;
 
 class ModuleTest extends TestCase

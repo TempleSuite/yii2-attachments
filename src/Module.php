@@ -1,8 +1,8 @@
 <?php
 
-namespace jeffwalsh\attachments;
+namespace templesuite\attachments;
 
-use jeffwalsh\attachments\models\File;
+use templesuite\attachments\models\File;
 use yii\base\Exception;
 use yii\helpers\ArrayHelper;
 use yii\helpers\FileHelper;
@@ -10,7 +10,7 @@ use yii\i18n\PhpMessageSource;
 
 class Module extends \yii\base\Module
 {
-    public $controllerNamespace = 'jeffwalsh\attachments\controllers';
+    public $controllerNamespace = 'templesuite\attachments\controllers';
 
     public $storePath = '@app/uploads/store';
 

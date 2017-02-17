@@ -1,8 +1,8 @@
 <?php
 
-namespace jeffwalsh\attachments\models;
+namespace templesuite\attachments\models;
 
-use jeffwalsh\attachments\ModuleTrait;
+use templesuite\attachments\ModuleTrait;
 use Yii;
 use yii\db\ActiveRecord;
 use yii\helpers\Url;

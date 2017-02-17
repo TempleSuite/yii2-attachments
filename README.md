@@ -38,7 +38,7 @@ Installation
 	'modules' => [
 		...
 		'attachments' => [
-			'class' => jeffwalsh\attachments\Module::className(),
+			'class' => templesuite\attachments\Module::className(),
 			'tempPath' => '@app/uploads/temp',
 			'storePath' => '@app/uploads/store',
 			'rules' => [ // Rules according to the FileValidator
@@ -61,7 +61,7 @@ Installation
 		'migrate' => [
 			'class' => 'yii\console\controllers\MigrateController',
 			'migrationNamespaces' => [
-				'jeffwalsh\attachments\migrations',
+				'templesuite\attachments\migrations',
 			],
 		],
 		...
@@ -80,7 +80,7 @@ Installation
 		return [
 			...
 			'fileBehavior' => [
-				'class' => \jeffwalsh\attachments\behaviors\FileBehavior::className()
+				'class' => \templesuite\attachments\behaviors\FileBehavior::className()
 			]
 			...
 		];
@@ -97,7 +97,7 @@ Usage
 1. In the `form.php` of your model add file input
 	
 	```php
-	<?= \jeffwalsh\attachments\components\AttachmentsInput::widget([
+	<?= \templesuite\attachments\components\AttachmentsInput::widget([
 		'id' => 'file-input', // Optional
 		'model' => $model,
 		'options' => [ // Options of the Kartik's FileInput widget
@@ -112,7 +112,7 @@ Usage
 2. Use widget to show all attachments of the model in the `view.php`
 	
 	```php
-	<?= \jeffwalsh\attachments\components\AttachmentsTable::widget(['model' => $model]) ?>
+	<?= \templesuite\attachments\components\AttachmentsTable::widget(['model' => $model]) ?>
 	```
 
 3. (Deprecated) Add onclick action to your submit button that uploads all files before submitting form

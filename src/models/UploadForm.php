@@ -1,8 +1,8 @@
 <?php
 
-namespace jeffwalsh\attachments\models;
+namespace templesuite\attachments\models;
 
-use jeffwalsh\attachments\ModuleTrait;
+use templesuite\attachments\ModuleTrait;
 use yii\base\Model;
 use yii\helpers\ArrayHelper;
 use yii\web\UploadedFile;

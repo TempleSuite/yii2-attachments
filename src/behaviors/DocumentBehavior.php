@@ -1,6 +1,6 @@
 <?php
 
-namespace jeffwalsh\attachments\behaviors;
+namespace templesuite\attachments\behaviors;
 use yii\base\Behavior;
 use nemmo\attachments\models\File;
 

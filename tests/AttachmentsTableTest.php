@@ -8,7 +8,7 @@
 
 namespace tests;
 
-use jeffwalsh\attachments\components\AttachmentsTable;
+use templesuite\attachments\components\AttachmentsTable;
 use tests\models\Comment;
 use Yii;
 use yii\db\ActiveRecord;

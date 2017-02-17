@@ -8,7 +8,7 @@
 
 namespace tests;
 
-use jeffwalsh\attachments\Module;
+use templesuite\attachments\Module;
 use tests\models\Comment;
 use Yii;
 use yii\web\Response;

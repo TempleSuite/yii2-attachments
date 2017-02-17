@@ -1,10 +1,10 @@
 <?php
 
-namespace jeffwalsh\attachments\components;
+namespace templesuite\attachments\components;
 
 use himiklab\colorbox\Colorbox;
-use jeffwalsh\attachments\behaviors\FileBehavior;
-use jeffwalsh\attachments\ModuleTrait;
+use templesuite\attachments\behaviors\FileBehavior;
+use templesuite\attachments\ModuleTrait;
 use Yii;
 use yii\bootstrap\Widget;
 use yii\data\ArrayDataProvider;

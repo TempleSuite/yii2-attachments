@@ -1,6 +1,6 @@
 <?php
 
-namespace jeffwalsh\attachments\components;
+namespace templesuite\attachments\components;
 
 use kartik\file\FileInput;
 use nemmo\attachments\models\UploadForm;

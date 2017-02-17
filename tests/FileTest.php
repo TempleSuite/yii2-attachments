@@ -8,7 +8,7 @@
 
 namespace tests;
 
-use jeffwalsh\attachments\models\File;
+use templesuite\attachments\models\File;
 
 class FileTest extends TestCase
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace jeffwalsh\attachments;
+namespace templesuite\attachments;
 
 /**
  * Created by PhpStorm.

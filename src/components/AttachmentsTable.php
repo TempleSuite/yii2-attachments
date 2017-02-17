@@ -1,9 +1,9 @@
 <?php
 
-namespace jeffwalsh\attachments\components;
+namespace templesuite\attachments\components;
 
-use jeffwalsh\attachments\behaviors\FileBehavior;
-use jeffwalsh\attachments\ModuleTrait;
+use templesuite\attachments\behaviors\FileBehavior;
+use templesuite\attachments\ModuleTrait;
 use Yii;
 use yii\base\InvalidConfigException;
 use yii\bootstrap\Widget;
