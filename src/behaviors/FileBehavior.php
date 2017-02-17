@@ -6,10 +6,10 @@
  * Time: 12:24
  */
 
-namespace nemmo\attachments\behaviors;
+namespace jeffwalsh\attachments\behaviors;
 
-use nemmo\attachments\models\File;
-use nemmo\attachments\ModuleTrait;
+use jeffwalsh\attachments\models\File;
+use jeffwalsh\attachments\ModuleTrait;
 use yii\base\Behavior;
 use yii\db\ActiveRecord;
 use yii\helpers\FileHelper;

@@ -1,10 +1,10 @@
 <?php
 
-namespace nemmo\attachments\controllers;
+namespace jeffwalsh\attachments\controllers;
 
-use nemmo\attachments\models\File;
-use nemmo\attachments\models\UploadForm;
-use nemmo\attachments\ModuleTrait;
+use jeffwalsh\attachments\models\File;
+use jeffwalsh\attachments\models\UploadForm;
+use jeffwalsh\attachments\ModuleTrait;
 use Yii;
 use yii\helpers\FileHelper;
 use yii\web\Controller;
