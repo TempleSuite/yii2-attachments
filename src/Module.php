@@ -18,6 +18,8 @@ class Module extends \yii\base\Module
 
     public $rules = [];
 
+    public $documentRules = [];
+
     public $tableName = 'attach_file';
 
     public function init()
@@ -29,6 +31,7 @@ class Module extends \yii\base\Module
         }
 
         $this->rules = ArrayHelper::merge(['maxFiles' => 3], $this->rules);
+        $this->documentRules = ArrayHelper::merge(['maxFiles' => 3], $this->documentRules);
         $this->defaultRoute = 'file';
         $this->registerTranslations();
     }

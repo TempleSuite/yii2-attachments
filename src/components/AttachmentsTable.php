@@ -3,6 +3,7 @@
 namespace templesuite\attachments\components;
 
 use templesuite\attachments\behaviors\FileBehavior;
+use templesuite\attachments\behaviors\DocumentBehavior;
 use templesuite\attachments\ModuleTrait;
 use Yii;
 use yii\base\InvalidConfigException;

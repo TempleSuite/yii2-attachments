@@ -1,5 +1,5 @@
 <?php 
-namespace templesuite\attachments\behaviors;
+namespace templesuite\attachments\services;
 
 use common\models\ar\User;
 use common\models\ar\Facility;
