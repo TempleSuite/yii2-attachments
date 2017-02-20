@@ -6,7 +6,7 @@ use common\models\ar\Facility;
 use common\models\ar\Complex;
 use common\models\ar\Group;
 use common\models\ar\PunchPassUser;
-use nemmo\attachments\models\File;
+use templesuite\attachments\models\File;
 use common\models\ar\SystemConfiguration;
 
 class AttachmentsService {

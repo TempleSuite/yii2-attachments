@@ -3,7 +3,7 @@
 namespace templesuite\attachments\behaviors;
 
 use yii\base\Behavior;
-use nemmo\attachments\models\File;
+use templesuite\attachments\models\File;
 use common\models\ar\SystemConfiguration;
 use common\models\ar\User;
 use common\models\ar\PunchPassUser;

@@ -3,8 +3,8 @@
 namespace templesuite\attachments\components;
 
 use kartik\file\FileInput;
-use nemmo\attachments\models\UploadForm;
-use nemmo\attachments\ModuleTrait;
+use templesuite\attachments\models\UploadForm;
+use templesuite\attachments\ModuleTrait;
 use yii\base\InvalidConfigException;
 use yii\bootstrap\Widget;
 use yii\helpers\FileHelper;

@@ -2,7 +2,7 @@
 
 namespace templesuite\attachments\behaviors;
 use yii\base\Behavior;
-use nemmo\attachments\models\File;
+use templesuite\attachments\models\File;
 
 
 class DocumentBehavior extends Behavior
